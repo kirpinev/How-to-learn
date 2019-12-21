@@ -4,31 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="stylesheet" href="vendor/style.css" />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img
-          src="images/logo.svg"
-          alt="Логотип Яндекс Практикума"
-          class="logo logo_place_header"
-          height="32"
-          width="183"
-        />
-
-        <h1 class="header__title">Научиться учиться</h1>
-
-        <p class="header__subtitle">
-          Какие современные и эффективные подходы к обучению вы можете
-          использовать в своей жизни?
-          <a href="#" class="header__link">Узнать</a>
-        </p>
-
-        <div class="header__main-illustration"></div>
-
-        <div class="header__square-pic"></div>
+        <div class="header__wrapper">
+          <div class="header__content">
+            <img
+              src="images/logo.svg"
+              alt="Логотип Яндекс.Практикум"
+              class="logo header__logo"
+              height="32"
+              width="183"
+            />
+            <h1 class="header__title">Научиться учиться</h1>
+            <p class="header__subtitle">
+              Какие современные и эффективные подходы к обучению вы можете
+              использовать в своей жизни?
+              <a href="#" class="header__link">Узнать</a>
+            </p>
+          </div>
+          <div class="header__square-pic"></div>
+        </div>
       </header>
       <main class="content">
         <section class="description">
@@ -453,18 +453,3 @@
     </div>
   </body>
 </html>
-
-<!-- В целом по работе:
-    Отлично!
-
-    Вы используте h для заголовков
-    Вы используете имена классов из брифа
-    Вы верно используете БЭМ наименование
-    У вас верно подключены файлы стилей
-    Вы не фиксируете высоту текстового контента
-    Верстка соответствует брифу
-    Вы верно реализовали анимацию
-
-    Отличная работа, принято!
-
--->

@@ -1,106 +1,106 @@
 /* ==========================================================================
-   Keyframes styles
+   Keyframes vendor
    ========================================================================== */
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
+/*@keyframes rotate {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
 
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
 
 /* ==========================================================================
-   Page global styles
+   Page global vendor
    ========================================================================== */
 
-.page {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  margin: 0 auto;
-  max-width: 1600px;
-  min-width: 1100px;
-}
+/*.page {*/
+/*  font-family: "Helvetica Neue", Arial, sans-serif;*/
+/*  margin: 0 auto;*/
+/*  max-width: 1600px;*/
+/*  min-width: 1100px;*/
+/*}*/
 
 /* ==========================================================================
-   Header styles
+   Header vendor
    ========================================================================== */
 
-.header {
-  background-color: #f2f2f2;
-  display: flex;
-  height: 100vh;
-  max-height: 756px;
-  min-height: 600px;
-  overflow: hidden;
-  position: relative;
-}
+/*.header {*/
+/*  background-color: #f2f2f2;*/
+/*  display: flex;*/
+/*  height: 100vh;*/
+/*  max-height: 756px;*/
+/*  min-height: 600px;*/
+/*  overflow: hidden;*/
+/*  position: relative;*/
+/*}*/
 
-.logo_place_header {
-  left: 64px;
-  position: absolute;
-  top: 30px;
-}
+/*.header__logo {*/
+/*  left: 64px;*/
+/*  position: absolute;*/
+/*  top: 30px;*/
+/*}*/
 
-.header__title {
-  align-self: center;
-  font: bold 102px/96px "Helvetica Neue", Arial, sans-serif;
-  margin-left: 64px;
-  width: 730px;
-  z-index: 3;
-}
+/*.header__title {*/
+/*  align-self: center;*/
+/*  font: bold 102px/96px "Helvetica Neue", Arial, sans-serif;*/
+/*  margin-left: 64px;*/
+/*  width: 730px;*/
+/*  z-index: 3;*/
+/*}*/
 
-.header__subtitle {
-  bottom: 30px;
-  font: normal 18px/25px "Helvetica Neue", Arial, sans-serif;
-  left: 64px;
-  position: absolute;
-  width: 388px;
-  z-index: 3;
-}
+/*.header__subtitle {*/
+/*  bottom: 30px;*/
+/*  font: normal 18px/25px "Helvetica Neue", Arial, sans-serif;*/
+/*  left: 64px;*/
+/*  position: absolute;*/
+/*  width: 388px;*/
+/*  z-index: 3;*/
+/*}*/
 
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-  transition: opacity 0.3s linear;
-}
+/*.header__link {*/
+/*  color: #2f80ed;*/
+/*  text-decoration: none;*/
+/*  transition: opacity 0.3s linear;*/
+/*}*/
 
-.header__link:hover {
-  opacity: 0.7;
-}
+/*.header__link:hover {*/
+/*  opacity: 0.7;*/
+/*}*/
 
-.header__link::after {
-  content: "→";
-  margin-left: 5px;
-}
+/*.header__link::after {*/
+/*  content: "→";*/
+/*  margin-left: 5px;*/
+/*}*/
 
-.header__main-illustration {
-  background: center / 765px 608px no-repeat url(../images/two_again.png);
-  bottom: 0;
-  height: 608px;
-  position: absolute;
-  right: 0;
-  width: 765px;
-  z-index: 1;
-}
+/*.header__main-illustration {*/
+/*  background: center / 765px 608px no-repeat url(../images/two_again.png);*/
+/*  bottom: 0;*/
+/*  height: 608px;*/
+/*  position: absolute;*/
+/*  right: 0;*/
+/*  width: 765px;*/
+/*  z-index: 1;*/
+/*}*/
 
-.header__square-pic {
-  animation: rotate 20s linear infinite;
-  background-color: #2f80ed;
-  height: 568px;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  transform: rotate(-15deg);
-  width: 568px;
-}
+/*.header__square-pic {*/
+/*  animation: rotate 20s linear infinite;*/
+/*  background-color: #2f80ed;*/
+/*  height: 568px;*/
+/*  position: absolute;*/
+/*  right: 0;*/
+/*  top: 64px;*/
+/*  transform: rotate(-15deg);*/
+/*  width: 568px;*/
+/*}*/
 
 /* ==========================================================================
-   Main content styles
+   Main content vendor
    ========================================================================== */
 
-/* Description block styles
+/* Description block vendor
    ========================================================================== */
 
 .description {
@@ -139,7 +139,7 @@
   font-weight: bold;
 }
 
-/* Technics block styles
+/* Technics block vendor
    ========================================================================== */
 
 .technics {
@@ -176,7 +176,7 @@
   margin: 0;
 }
 
-/* Video block styles
+/* Video block vendor
    ========================================================================== */
 
 .video {
@@ -193,7 +193,7 @@
   margin: 50px 0 -50px 0;
 }
 
-/* Oakley block styles
+/* Oakley block vendor
    ========================================================================== */
 
 .oakley {
@@ -203,7 +203,7 @@
   padding: 160px 0 80px 0;
 }
 
-/* Feinman block styles
+/* Feinman block vendor
    ========================================================================== */
 
 .feinman {
@@ -251,7 +251,7 @@
   margin-left: 5px;
 }
 
-/* Digits block styles
+/* Digits block vendor
    ========================================================================== */
 
 .digits {
@@ -302,7 +302,7 @@
   margin: 20px 0 0 0;
 }
 
-/* Khan block styles
+/* Khan block vendor
    ========================================================================== */
 
 .khan {
@@ -370,7 +370,7 @@
   object-position: left top;
 }
 
-/* Kaufman block styles
+/* Kaufman block vendor
    ========================================================================== */
 
 .kaufman {
@@ -401,7 +401,7 @@
   z-index: -20;
 }
 
-/* Resources block styles
+/* Resources block vendor
    ========================================================================== */
 
 .resources {
@@ -417,7 +417,7 @@
 }
 
 /* ==========================================================================
-   Footer styles
+   Footer vendor
    ========================================================================== */
 
 .footer {
