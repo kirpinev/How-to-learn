@@ -4,3 +4,11 @@
   display: flex;
   flex-direction: column;
 }
+
+.footer__column:nth-child(1) {
+  margin-right: auto;
+}
+
+.footer__column:nth-child(3) {
+  margin-left: 100px;
+}
