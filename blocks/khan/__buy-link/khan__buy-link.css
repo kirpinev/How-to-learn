@@ -3,6 +3,7 @@
   font: normal 30px/42px "Helvetica Neue", Arial, sans-serif;
   text-decoration: none;
   transition: opacity 0.3s linear;
+  margin-top: -11px;
 }
 
 .khan__buy-link::after {
