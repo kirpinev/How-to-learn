@@ -1,0 +1,8 @@
+.footer__column-heading {
+  font: bold 18px/30px "Helvetica Neue", Arial, sans-serif;
+  margin: 0 0 20px 0;
+}
+
+.footer__column-heading:last-of-type {
+  margin-bottom: 16px;
+}

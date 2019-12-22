@@ -1,0 +1,6 @@
+@import url("_content/_copyright/footer__column_content_copyright.css");
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
