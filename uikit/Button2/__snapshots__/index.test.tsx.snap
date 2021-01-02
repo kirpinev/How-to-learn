@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index page should match the snapshot 1`] = `
+<button
+  className="Button-nk2hqu-0 hxSCrT"
+>
+  Buy
+</button>
+`;
