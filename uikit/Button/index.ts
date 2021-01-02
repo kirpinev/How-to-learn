@@ -9,6 +9,7 @@ export const Button = styled.button<IProps>`
   border: 1px solid gray;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 16px;
 
   ${(props) =>
     props.primary &&
