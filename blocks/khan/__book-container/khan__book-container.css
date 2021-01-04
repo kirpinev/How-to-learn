@@ -1,6 +1,0 @@
-.khan__book-container {
-  display: grid;
-  grid-column-gap: 20px;
-  grid-template-columns: 620px 220px;
-  grid-template-rows: auto;
-}

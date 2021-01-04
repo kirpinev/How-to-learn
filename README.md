@@ -1,13 +1,1 @@
-# Научиться учиться
- 
-Типовой, одностраничный сайт о том как правильно учиться.
-
-# В работе использовались:
-
-- HTML5
-- CSS3
-- БЭМ
-
-# Демо
-
-http://how-to-learn.surge.sh/
+Next.js app example with ts, styled-components, storybook, jest and more...
