@@ -6,6 +6,8 @@ import {
   Subtitle,
   Link,
   SquarePic,
+  BackgroundWrapper,
+  BackgroundImage,
 } from '../../uikit'
 import { MainLogo } from '../../Icons'
 
@@ -20,6 +22,14 @@ export const Header = (): JSX.Element => (
         <Subtitle>
           {TRANSLATION.SUBTITLE} <Link href="#">{TRANSLATION.LINK}</Link>
         </Subtitle>
+        <BackgroundWrapper>
+          <BackgroundImage
+            src="/two_again.png"
+            width="765"
+            height="608"
+            objectFit="cover"
+          />
+        </BackgroundWrapper>
       </Content>
       <SquarePic />
     </HeaderWrapper>
