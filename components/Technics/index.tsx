@@ -22,7 +22,7 @@ export const Technics: FC = (): JSX.Element => (
       <Cards>
         {TRANSLATION.CARDS.map(({ src, alt, title, description }) => (
           <CardsItem key={alt}>
-            <CardsImage src={src} alt={alt} />
+            <CardsImage src={src} alt={alt} width={160} height={160} />
             <CardsTitle>{title}</CardsTitle>
             <CardsDescription>{description}</CardsDescription>
           </CardsItem>

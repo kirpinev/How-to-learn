@@ -26,7 +26,12 @@ export const Khan: FC = (): JSX.Element => (
         {TRANSLATION.QUOTE_AUTHOR_SUBLINE}
       </QuoteAuthorSubline>
       <BookContainer>
-        <BookPic src={TRANSLATION.IMAGE.SRC} alt={TRANSLATION.IMAGE.ALT} />
+        <BookPic
+          src={TRANSLATION.IMAGE.SRC}
+          alt={TRANSLATION.IMAGE.ALT}
+          width={700}
+          height={1001}
+        />
         <BuyLink href="#">{TRANSLATION.LINK}</BuyLink>
       </BookContainer>
     </KhanWrapper>
