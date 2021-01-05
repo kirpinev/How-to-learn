@@ -20,6 +20,7 @@ export const Video: FC = (): JSX.Element => (
       <IframesWrapper>
         <IframeContainer>
           <Iframe
+            title="The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU"
             style={{ border: 0 }}
             width="100%"
             height="100%"
@@ -30,6 +31,7 @@ export const Video: FC = (): JSX.Element => (
         </IframeContainer>
         <IframeContainer>
           <Iframe
+            title="Inside the mind of a master procrastinator | Tim Urban"
             style={{ border: 0 }}
             width="100%"
             height="100%"
