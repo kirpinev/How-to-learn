@@ -25,6 +25,7 @@ export const Header = (): JSX.Element => (
         <BackgroundWrapper>
           <BackgroundImage
             src="/two_again.png"
+            alt="Картина 'Опять двойка'"
             width="765"
             height="608"
             objectFit="cover"
